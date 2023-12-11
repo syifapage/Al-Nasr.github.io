@@ -1,0 +1,692 @@
+:root {
+    --grey: #4a4a4a;
+    --yelow: #ffc265;
+    --tosca: #1da599;
+    --main-color: #454545;
+    --light-blue: #c1fffa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    color: var(--main-color);
+    font-family: "Nunito", sans-serif;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: 700;
+    font-family: "Kufam", sans-serif;
+    color: var(--grey);
+    text-transform: capitalize;
+}
+
+.content-text,
+.package-page,
+.facilities-wrapper,
+.gallery-wrapper p {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero-page,
+.about-us-page,
+.package-page,
+.facilities-page,
+.testimonial-page,
+.airways-page,
+.gallery-page {
+    padding: 100px;
+}
+
+/* hero page start */
+
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    gap: 175px;
+    display: flex;
+}
+
+nav .logo img {
+    width: 143px;
+    height: 70px;
+}
+
+nav .navbar-nav {
+    gap: 45px;
+    display: flex;
+    color: red;
+}
+
+nav .navbar-nav a {
+    font-size: 20px;
+    color: var(--main-color);
+    font-weight: 500;
+    margin-top: 28px;
+}
+
+nav .navbar-nav .home {
+    color: var(--yelow);
+}
+
+.hero-page nav button {
+    width: 193px;
+    height: 65px;
+    font-size: 20px;
+    font-family: 600;
+    border-radius: 10px;
+    background-color: var(--yelow);
+}
+
+.hero-content {
+    gap: 50px;
+    display: flex;
+    margin: 80px 0;
+}
+
+.hero-content .content-text {
+}
+
+.content-text {
+    display: block;
+}
+
+.content-text .indonesia {
+    width: 274px;
+    height: 43px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: var(--tosca);
+    border: 1px solid var(--light-blue);
+    background-color: var(--light-blue);
+}
+.content-text h1 {
+    width: 627px;
+    margin-top: 35px;
+}
+
+.hero-content .content-text p {
+    width: 645px;
+}
+
+.hero-content .content-text p {
+    margin-top: 15px;
+}
+
+.hero-content img {
+    width: 533px;
+    height: 510px;
+    margin-top: 10px;
+}
+
+.content-text .indonesia p {
+    margin: 5px 35px;
+}
+
+.hero-content .content-text button {
+    width: 223px;
+    height: 77px;
+    font-size: 20px;
+    font-family: 600;
+    border-radius: 10px;
+    margin-top: 32px;
+    background-color: var(--yelow);
+}
+
+/* hero page end */
+
+/* about us start */
+.about-us-page,
+.facilities-page,
+.gallery-page {
+    width: 1440px;
+    background-color: #f3fffe;
+}
+
+.about-us-content {
+    gap: 55px;
+    display: flex;
+}
+
+.about-us-content img {
+    width: 506px;
+    height: 591px;
+    margin-top: 40px;
+}
+
+.about-us-content .content-text h1 {
+    width: 663px;
+}
+
+.about-us-content .content-text p {
+    width: 664px;
+    margin-top: 35px;
+}
+
+.about-us-content .content-text ul {
+    display: block;
+    line-height: 0.3;
+}
+
+.about-us-content .content-text ul li {
+    gap: 20px;
+    display: flex;
+}
+
+.about-us-content .content-text ul li img {
+    width: 36px;
+    height: 36px;
+    margin-top: 20px;
+}
+
+.about-us-content .content-text .btn-cta {
+    gap: 40px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.about-us-content .content-text .btn-cta .learn {
+    color: var(--grey);
+    padding: 25px 62px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: var(--yelow);
+}
+
+.about-us-content .content-text .btn-cta .contact {
+    color: var(--yelow);
+    padding: 25px 62px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 3px solid var(--yelow);
+}
+
+/* about us end */
+
+/* package page start */
+.package-page {
+}
+
+.package-page h1 {
+    width: 821px;
+    text-align: center;
+    margin: 10px 200px;
+}
+
+.package-page p {
+    text-align: center;
+    margin: 0 300px;
+    width: 660px;
+}
+
+.package-page .card-wrapper {
+    display: grid;
+    grid: auto / auto auto auto;
+    gap: 10px;
+}
+
+.card-wrapper {
+    margin-top: 75px;
+}
+
+.card {
+    width: 361px;
+    height: 580px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 20px 0px rgba(29, 165, 153, 0.15);
+}
+
+.card-content {
+    margin: 25px;
+}
+
+.card-content img {
+    width: 311px;
+    height: 238px;
+}
+
+.card-content section .title {
+    gap: 115px;
+    display: flex;
+    /* margin-top: 16px; */
+}
+
+.card-content section .title h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--yelow);
+    margin-top: 25px;
+}
+
+.card-content section .title h4 {
+    width: 145px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 30px;
+    color: var(--tosca);
+    border-radius: 30px 0px 0px 30px;
+    background-color: var(--light-blue);
+}
+
+.card-content section .title .card2 {
+    padding: 13px 20px;
+}
+
+.card-content section .title .card4 {
+    padding: 13px 22px;
+}
+
+.card-content section .title .card5 {
+    width: 170px;
+    padding: 13px 0;
+}
+
+.card-content section h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: Kufam;
+    text-transform: capitalize;
+}
+
+.card-content section h3 {
+    font-family: Kufam;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.card-content section h3 span {
+    color: var(--tosca);
+}
+
+.card-content section .icon {
+    gap: 20px;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.card-content section .icon img {
+    width: 36px;
+    height: 36px;
+}
+
+.card .card-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 250px 0;
+    text-align: center;
+    color: var(--tosca);
+}
+
+.card-content section .btn-cta {
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 16px 30px;
+    color: var(--yelow);
+    border: 1px solid var(--yelow);
+}
+
+/* package page end*/
+
+/* airways-page-start */
+.airways-page {
+    display: flex;
+}
+
+.airways-page .subtitel {
+    display: block;
+    margin-right: 80px;
+}
+
+.airways-page .subtitel h1 {
+    width: 254px;
+    font-size: 32px;
+}
+
+.airways-page .subtitel p {
+    width: 295px;
+    font-size: 24px;
+}
+
+.airways-page .subtitel .rate {
+    gap: 5px;
+    width: 165px;
+    heigth: 47px;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: var(--light-blue);
+}
+
+.airways-page .subtitel .rate img {
+    width: 24px;
+    height: 24px;
+}
+
+.airways-page .subtitel .rate h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--tosca);
+}
+
+.airways-page .airways-content {
+    display: flex;
+    gap: 50px;
+}
+
+.airways-page .garudaid {
+    width: 288px;
+    height: 77px;
+}
+
+.airways-page .qatar {
+    width: 226px;
+    height: 77px;
+}
+
+.airways-page .emirates {
+    width: 137px;
+    height: 77px;
+}
+
+.airways-page .saudia {
+    width: 326px;
+    height: 77px;
+}
+
+/* airways-page-end */
+
+/* facilities page start*/
+
+.facilities-page {
+}
+
+.facilities-wrapper {
+}
+
+.facilities-wrapper h1 {
+    text-align: center;
+}
+
+.facilities-wrapper p {
+    width: 660px;
+    margin: 0 300px;
+    text-align: center;
+}
+
+.facilities-content {
+    margin-top: 50px;
+
+    display: grid;
+    grid: auto / auto auto auto auto;
+    gap: 20px;
+}
+
+.facilities {
+    width: 300px;
+    height: 112px;
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.12);
+}
+
+.facilities img {
+    width: 36px;
+    height: 36px;
+    margin: 5px;
+}
+
+.facilities .facilities-text {
+    display: block;
+}
+
+.facilities .facilities-text h4 {
+    font-size: 20px;
+    font-weigth: 600;
+}
+
+.facilities .facilities-text h5 {
+    width: 190px;
+    font-size: 14px;
+    font-weigth: 100;
+    line-height: 21px;
+}
+
+/* facilities page end*/
+
+/* testimonial page start */
+.testimonial-page {
+}
+.testimonial-wrapper {
+}
+
+.testimonial-wrapper .heading {
+    display: flex;
+}
+
+.testimonial-wrapper button {
+    gap: 10px;
+    width: 174px;
+    height: 64px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: nunito;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-top: 150px;
+    background-color: var(--yelow);
+}
+
+.testimonial-wrapper button img {
+    margin-top: 5px;
+}
+
+.testimonial-wrapper .heading .text-titel {
+    display: block;
+}
+
+.testimonial-wrapper .heading h1 {
+    width: 860px;
+    text-align: right;
+    margin-left: 220px;
+}
+
+.testimonial-wrapper .heading h5 {
+    width: 600px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 480px;
+}
+
+/* testimonial page end */
+
+/* gallery page start */
+.gallery-page {
+}
+
+.gallery-wrapper {
+}
+
+.gallery-wrapper h1 {
+    text-align: center;
+}
+
+.gallery-wrapper p {
+    margin: 0 300px;
+    text-align: center;
+    width: 660px;
+}
+.gallery-content {
+    display: grid;
+    gap: 20px;
+    grid:
+        "menu item1 item1 item2"
+        "menu item1 item1 item2"
+        "menu item3 item3 item4"
+        "menu item3 item3 item4";
+    margin-top: 70px;
+}
+
+.gallery-content .item2,
+.item3,
+.item4,
+.item5 {
+    width: 329px;
+    heigth: 353px;
+}
+
+.gallery-content .item1 {
+    width: 530px;
+    heigth: 743px;
+    grid-area: menu;
+}
+
+.item2 {
+    grid-area: item1;
+}
+
+.item3 {
+    grid-area: item2;
+}
+
+.item4 {
+    grid-area: item3;
+}
+
+.item5 {
+    grid-area: item4;
+}
+
+/* gallery page end */
+
+/* footer start */
+footer {
+    color: #ffffff;
+    padding: 60px 100px;
+    background-color: var(--tosca);
+}
+
+.footer-wrapper {
+    gap: 50px;
+    width: 1200px;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer-wrapper .titel {
+}
+
+.footer-wrapper .titel .logo {
+    gap: 23px;
+    width: 270px;
+    height: 79px;
+    display: flex;
+    padding: 14px 28px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.footer-wrapper .logo img {
+    width: 120px;
+    heigth: 51px;
+}
+
+.footer-wrapper .titel .logo h1 {
+    width: 72px;
+    font-size: 20px;
+    font-weigth: 600;
+    font-family: kufam;
+    margin-top: 5px;
+    color: var(--tosca);
+}
+
+.footer-wrapper .titel p {
+    width: 294px;
+    font-size: 16px;
+    font-weigth: 600;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.footer-wrapper .quick-link {
+    display: block;
+}
+
+.package-umrah h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: nunito;
+    color: #ffffff;
+}
+
+.package-umrah ul li {
+    display: block;
+    line-height: 30px;
+}
+
+.package-umrah ul li a {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    gap: 648px;
+    padding: 25px 0;
+    display: flex;
+}
+
+.footer-bottom h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.footer-bottom .sosmed {
+    gap: 11px;
+    display: flex;
+}
+
+.footer-bottom .sosmed img {
+    width: 24px;
+    heigth: 24px;
+    margin: 6px;
+}
+
+.footer-bottom .sosmed .instagram,
+.facebook,
+.twitter,
+.youtube {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* footer end */
